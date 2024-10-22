@@ -1,70 +1,29 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Voici un exemple de README bien structuré et professionnel pour votre projet de formulaire multi-étapes utilisant React et AntDesign :
 
-## Available Scripts
+📋 Formulaire d'inscription au programme d'apprentissage - Multi-étapes
+Ce projet est une application web de formulaire multi-étapes créée en React avec AntDesign. Il permet aux utilisateurs de s'inscrire à un programme d'apprentissage au développement. Chaque étape du formulaire valide et collecte les informations, avant de passer à la suivante. Une fois le formulaire soumis, les informations sont affichées pour révision et une confirmation est envoyée.
 
-In the project directory, you can run:
+🖥️ Aperçu
+L'application est divisée en trois étapes :
 
-### `npm start`
+Informations de contact : Collecte les informations personnelles de l'utilisateur.
+Compétences en développement : Récupère le niveau en développement et les langages maîtrisés.
+Prise de rendez-vous : Permet de fixer un rendez-vous pour des conseils ou de l'aide technique.
+Révision : Affiche un résumé des informations avant soumission finale.
+Démo
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+🚀 Fonctionnalités
+Formulaire multi-étapes avec validation : Chaque étape vérifie la validité des données avant de permettre l'accès à l'étape suivante.
+Affichage des informations sous forme lisible : Après la soumission, l'utilisateur peut revoir les informations avant validation.
+Composants entièrement basés sur AntDesign : Utilisation de la bibliothèque AntDesign pour une interface utilisateur moderne et réactive.
+Sauvegarde des données en mémoire : Les informations collectées sont gérées via useState et passées d'une étape à l'autre.
+🛠️ Technologies utilisées
+React : Librairie JavaScript pour créer des interfaces utilisateurs interactives.
+AntDesign : Librairie de composants UI qui fournit des éléments visuellement attractifs et réactifs.
+JavaScript (ES6) : Pour la logique de gestion des étapes et la collecte des données.
+CSS (AntDesign) : Pour le style de l'application.
+📦 Installation
+Prérequis
+Node.js v14 ou supérieur.
+npm ou yarn pour la gestion des dépendances.
